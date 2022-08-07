@@ -1,0 +1,30 @@
+.cc-grid1{
+    position: absolute;
+    border: 2px black;
+}
+
+.css-grid2{
+    display: grid;
+    margin:  red;
+    border: 2px black;
+    border-style: solid;
+    position: relative;    
+    grid-template-columns: 40px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-rows: minmax(auto,auto);
+    grid-template-areas: 
+    'skd1 skd2 skd3 '
+    ;
+    
+    
+}
+.common{
+    background-color: white;
+    border: 10px red;
+    margin: 50px;
+    padding: 50px;
+    
+    }
+
